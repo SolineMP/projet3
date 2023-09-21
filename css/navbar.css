@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.8rem;   
+}
+
+.navbar__logo {
+    width: 3.8rem;
+    height: 1.8rem;
+}
+
+.navbar__link  {
+    text-decoration: none;
+    color: inherit;
+}
