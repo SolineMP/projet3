@@ -47,7 +47,8 @@ body {
     text-decoration: none;
     margin-left: 4rem;
     padding-top: 2.7rem ;
-}
+    color: black;
+ }
 
 .navbar__link:visited {
     color: black;
@@ -113,17 +114,34 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    font-weight: bold;
 }
 
 .filterbar__btn--rounded {
     border: var(--main-bg-color) solid 0.125rem;
-    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
-    margin: 2.6rem;
-    padding: 1rem;
+    border-radius: 1.5rem;
+    margin: 1.6rem;
+    padding: 0.6rem 1.25rem;
 }
 
 .filterbar__btn--logo {
    margin-right: 0.6rem; 
+}
+
+/* Attention div */
+
+.message {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message__btn--roundedfull {
+	border-radius: 9999px;
+    border: var(--main-bg-color) solid 0.125rem ;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.5rem;
 }
 
 
