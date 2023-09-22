@@ -193,6 +193,7 @@ a {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    margin-bottom: 3rem;
 }
 
 /****** Hebergements ***********/
@@ -227,7 +228,7 @@ a {
     border-top-right-radius: 20px;
  }
 
- .hebergements p {
+.hebergements-plus {
     font-weight: bold;
  }
 
@@ -275,6 +276,39 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+/* Section Activities */
+
+.activities {
+    margin-bottom: 2rem;
+}
+
+.activities-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activities-card img {
+    width: 18rem;
+    height: 27.75rem;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+.activities-card h3 {
+    padding: 0.8rem;
+}
+
+.activities h2 {
+    margin-bottom: 2rem;
+}
+
+.activity__card {
+    padding: 0;
+}
+
+/* Footer */
 
 
 
