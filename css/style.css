@@ -127,6 +127,32 @@ body {
    margin-right: 0.6rem; 
 }
 
+/* Animation filters */
+
+@keyframes filter-on {
+    0% {background-color: white;}
+    100% {background-color: #DEEBFF;}
+}
+
+.filterbar__btn--rounded:hover {
+    animation-name: filter-on;
+    animation-duration: 1s;
+}
+
+.filterbar__btn--rounded:hover {
+    background-color: #DEEBFF;
+}
+
+@keyframes filter-off {
+    0% {background-color: #DEEBFF ;}
+    100% {background-color: white;}
+}
+
+.filterbar__btn--rounded:not(:hover) {
+    animation-name: filter-off;
+    animation-duration: 1s;
+}
+
 /* Attention div */
 
 .message {
