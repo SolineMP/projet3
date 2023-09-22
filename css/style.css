@@ -23,10 +23,6 @@ body {
     box-sizing: border-box;
 }
 
-/* .flex {
-    display: flex;
-} */
-
 /* Header */
 
 .navbar {
@@ -280,7 +276,7 @@ a {
 /* Section Activities */
 
 .activities {
-    margin-bottom: 2rem;
+    margin-bottom: 3.8rem;
 }
 
 .activities-card {
@@ -310,7 +306,33 @@ a {
 
 /* Footer */
 
+.footbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: auto;
+    height: 12rem;
+    align-items: baseline;
+    background-color: var(--main-bg-color);
+    gap: 9rem;
+}
 
+.footbar__link {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 19px;
+    font-size: 16px;
+}
+
+.footbar__title {
+    margin-bottom: 23px ;
+}
+
+.footbar__box {
+    margin-top: 2rem ;
+    margin-left: 4.3rem; 
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
