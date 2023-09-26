@@ -331,10 +331,16 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.activity__card--link {
+    width: 100%;
 }
 
 .activities-card img {
-    width: 18rem;
+    width: 100%;
     height: 27.75rem;
     border-top-left-radius: 1.25rem;
     border-top-right-radius: 1.25rem;
@@ -362,7 +368,7 @@ a {
     height: 12rem;
     align-items: baseline;
     background-color: var(--main-bg-color);
-    gap: 9rem;
+    width: 100%;
 }
 
 .footbar__link {
@@ -380,6 +386,7 @@ a {
 .footbar__box {
     margin-top: 2rem ;
     margin-left: 4.3rem; 
+    width: 33%;
 }
 
 
