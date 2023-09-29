@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar">
             <img class="navbar__logo" src="images/logo/Booki.png" alt="Logo de Booki">
-            <div>
+            <div class="navbar__links">
                 <a class="navbar__link" href="#hebergements">Hébergements</a>
                 <a class="navbar__link" href="#activities">Activités</a>
             </div>
@@ -30,30 +30,31 @@
             <h1 class="title">Trouvez votre hébergement pour des vacances de rêves</h1>
             <p class="title">En plein centre ville ou en pleine nature</p>
             <form method="get" action="#" class="searchbar">
-                <div class="searchbar">
-                    <i class="fa-solid fa-location-dot searchbar__logo searchbar__logo--black"></i>
+                <div class="searchbar searchbar__logo">
+                    <i class="fa-solid fa-location-dot searchbar__logo--black"></i>
                 </div>
                 <label for="search"></label>
                 <input type=" search" id="search" name="search" value="" placeholder="Marseille, France"
                     class="searchbar searchbar__text">
                 <button class="searchbar searchbar__button">Rechercher</button>
+                <button class="searchbar searchbar__button--mini"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <div class="filterbar">
                 <h2 class="filterbar__title">Filtres</h2>
                 <ul class="filterbar__btn">
-                    <li class="filterbar filterbar__btn filterbar__btn--rounded">
+                    <li class="filterbar__btn--rounded">
                         <i class="fa-solid fa-money-bill-wave filterbar__btn--logo"></i>
                         <p>Économique</p>
                     </li>
-                    <li class="filterbar filterbar__btn filterbar__btn--rounded">
+                    <li class="filterbar__btn--rounded">
                         <i class="fa-solid fa-person filterbar__btn--logo"></i>
                         <p>Familial</p>
                     </li>
-                    <li class="filterbar filterbar__btn filterbar__btn--rounded">
+                    <li class="filterbar__btn--rounded">
                         <i class="fa-solid fa-heart filterbar__btn--logo"></i>
                         <p>Romantique</p>
                     </li>
-                    <li class="filterbar filterbar__btn filterbar__btn--rounded">
+                    <li class="filterbar__btn--rounded">
                         <i class="fa-solid fa-dog filterbar__btn--logo"></i>
                         <p>Animaux autorisés</p>
                     </li>
