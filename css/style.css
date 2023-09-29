@@ -47,8 +47,9 @@ body {
 .navbar__link  {
     text-decoration: none;
     margin-left: 4rem;
-    padding-top: 2.7rem ;
+    padding-top: 2.65rem ;
     color: black;
+    padding-inline: 15px;
  }
 
 .navbar__link:visited {
@@ -171,7 +172,6 @@ body {
     animation-name: filter-on;
     animation-duration: 1s;
     background-color: #DEEBFF;
-    position: relative;
     scale:1.1;
 }
 
@@ -447,20 +447,31 @@ a {
         font-size: 18px;
     }
 
+    .filterbar {
+        width: 100%;
+    }
+
+    .filterbar__btn {
+        width: 40%;
+    }
+
 /* Animation filterbar */
 
     @keyframes filter-on {
         0%{background-color: white;}
-        100%{background-color: white;}
+        40%{transform: scale(1);}
+        100%{background-color: white; transform: scale(1);}
     }
 
     @keyframes filter-off {
-        0%{background-color: white;}
-        100% {background-color: white;}
+        0%{background-color: white; transform: scale(1);}
+        40%{transform: scale(1);}
+        100% {background-color: white; transform: scale(1);}
     }
 
     .filterbar__btn--rounded:hover {
         background-color: white;
+        scale: 1;
     }
 
 /* Hébergements */
@@ -652,16 +663,19 @@ a {
 
     @keyframes filter-on {
         0%{background-color: white;}
-        100%{background-color: white;}
+        40%{transform: scale(1);}
+        100%{background-color: white; transform: scale(1);}
     }
 
     @keyframes filter-off {
-        0%{background-color: white;}
-        100% {background-color: white;}
+        0%{background-color: white; transform: scale(1);}
+        40%{transform: scale(1);}
+        100% {background-color: white; transform: scale(1);}
     }
 
     .filterbar__btn--rounded:hover {
         background-color: white;
+        scale: 1;
     }
 
 /* Attention message */
@@ -683,8 +697,9 @@ a {
         padding-left: 12px;
     }
 
-    .populaires {
+    .hebergements-and-populaires .populaires {
         width: 98%;
+        padding-bottom: 70px;
     }
 
     .populaires-title {
@@ -692,9 +707,9 @@ a {
         margin-top: 18px;
     }
 
-    .hebergements {
+    .hebergements-and-populaires .hebergements {
         width: 98%;
-        background-color: white!important;
+        background-color: white;
     }
 
     .hebergements-title {
