@@ -163,21 +163,26 @@ body {
 
 @keyframes filter-on {
     0% {background-color: white;}
-    100% {background-color: #DEEBFF;}
+    40% {width: 120%; height: 120%; transform: scale(1.2);}
+    100% {background-color: #DEEBFF; transform:scale(1,1);}
 }
 
 .filterbar__btn--rounded:hover {
     animation-name: filter-on;
     animation-duration: 1s;
+    background-color: #DEEBFF;
+    position: relative;
+    scale:1.1;
 }
 
-.filterbar__btn--rounded:hover {
+/* .filterbar__btn--rounded:hover {
     background-color: #DEEBFF;
-}
+} */
 
 @keyframes filter-off {
     0% {background-color: #DEEBFF ;}
-    100% {background-color: white;}
+    40% {transform: scale(0.9);}
+    100% {background-color: white; transform: scale(1);}
 }
 
 .filterbar__btn--rounded:not(:hover) {
