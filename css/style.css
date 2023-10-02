@@ -172,7 +172,7 @@ body {
     animation-name: filter-on;
     animation-duration: 1s;
     background-color: #DEEBFF;
-    scale:1.1;
+    transform:scale(1.1);
 }
 
 /* .filterbar__btn--rounded:hover {
@@ -455,6 +455,10 @@ a {
         width: 40%;
     }
 
+    .filterbar__btn--rounded {
+        padding: 3%;
+    }
+
 /* Animation filterbar */
 
     @keyframes filter-on {
@@ -471,7 +475,7 @@ a {
 
     .filterbar__btn--rounded:hover {
         background-color: white;
-        scale: 1;
+        transform: scale(1);
     }
 
 /* Hébergements */
@@ -675,7 +679,7 @@ a {
 
     .filterbar__btn--rounded:hover {
         background-color: white;
-        scale: 1;
+        transform: scale(1);
     }
 
 /* Attention message */
@@ -745,6 +749,10 @@ a {
         width: 92%;
     }
 
+    .activity__card--link {
+        margin-bottom: 25px;
+    }
+
     .activities-card img {
         height: 190px;
     }
@@ -755,5 +763,10 @@ a {
         flex-direction: column;
         height: auto;
         width: 98%;
+    }
+
+    .footbar__box {
+        margin-left: 12px;
+        width: auto;
     }
 }
