@@ -182,10 +182,6 @@ body {
   transform: scale(1.1);
 }
 
-/* .filterbar__btn--rounded:hover {
-    background-color: #DEEBFF;
-} */
-
 @keyframes filter-off {
   0% {
     background-color: #deebff;
@@ -279,14 +275,10 @@ a {
   justify-content: space-between;
 }
 
-/* .hebergements-title {
-    margin-top: 1rem;
-} */
 
 .hebergements-card {
   display: grid;
   grid-template-columns: 32% 32% 32%;
-  /* grid-template-rows: 1fr 1fr; */
   gap: 15px;
 }
 
