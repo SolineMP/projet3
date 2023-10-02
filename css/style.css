@@ -741,6 +741,10 @@ a {
     padding-left: 12px;
   }
 
+  .hebergements-card .card {
+    margin-bottom: 15px;
+  }
+
   .hebergements-and-populaires .populaires {
     width: 98%;
     padding-bottom: 70px;
